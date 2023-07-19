@@ -161,3 +161,10 @@ function convertMs(ms) {
 function addLeadingZero(value) {
   value = String(value).padStart(2, '0');
 }
+
+class Timer {
+  constructor() {}
+
+  start() {}
+  stop() {}
+}

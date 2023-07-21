@@ -10,6 +10,7 @@ let idInterval = null;
 function changeColor() {
   startBtnRef.disabled = true;
   idInterval = setInterval(() => {
+    console.log(getRandomHexColor());
     bodyRef.style.backgroundColor = getRandomHexColor();
   }, 1000);
 }
